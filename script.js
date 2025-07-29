@@ -85,7 +85,7 @@ document.querySelector(".next")?.addEventListener("click", showNextImage);
 document.querySelector(".prev")?.addEventListener("click", showPrevImage);
 
 // Auto Slide
-let interval = setInterval(showNextImage, 1500);
+let interval = setInterval(showNextImage, 1000);
 
 // Pause on hover
 carouselImage?.addEventListener("mouseenter", () => clearInterval(interval));
